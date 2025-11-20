@@ -305,8 +305,8 @@ update_tomcat() {
 
     echo "Tomcat update completed successfully."
     echo "Press [Enter] to exit."
-    read exit_input
-
-        
+    read exit_input      
 }
 
+# Main Script Execution
+update_tomcat
